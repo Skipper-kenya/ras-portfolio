@@ -1,0 +1,148 @@
+.navbar {
+  width: 100%;
+  height: 70px;
+  background: #21325e;
+  top: 0;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 4;
+}
+.topIntro {
+  color: rgb(194, 120, 23);
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  letter-spacing: 1px;
+  font-family: arial;
+  font-size: 20px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.links {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  text-decoration: none;
+}
+
+.test {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.test:hover {
+  color: rgb(194, 120, 23);
+  transition: 0.4s;
+}
+.active.test {
+  color: rgb(194, 120, 23);
+}
+.toggleButton {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.toggleButton button:hover {
+  color: rgb(194, 120, 23);
+  transition: 0.4s;
+}
+
+.toggleButton svg {
+  font-size: 40px;
+  top: 10px;
+  right: 1rem;
+  position: absolute;
+  background-color: rgb(91, 84, 131);
+}
+.toggleButton button {
+  margin-right: 20px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#open {
+  position: relative;
+  height: 23.2vh;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+#open .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px 0px;
+  height: 50px;
+}
+
+#open a {
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar a {
+    width: 70px;
+  }
+}
+
+@media only screen and (max-width: 763px) {
+  .navbar {
+    justify-content: space-between;
+  }
+  .links {
+    display: none;
+    top: 70px;
+    position: absolute;
+    width: 100%;
+    background-color: #21325e;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+  }
+  .toggleButton {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .topIntro {
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    left: 1rem;
+  }
+  #close a {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 764px) {
+  .toggleButton {
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+
+  #open {
+    height: 100px;
+  }
+
+  #open .links {
+    flex-direction: row;
+  }
+}
