@@ -59,7 +59,7 @@ function Home() {
         <div className="prompt">
           <p>
             A full-stack software developer with passion and skills in creating
-            web pages and interactivity.
+            robust web pages and Applications.
           </p>
           <a
             href="https://www.linkedin.com/in/andrew-kimwetich-84070a263/"

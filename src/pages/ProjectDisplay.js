@@ -1,8 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
-// import GitHubIcon from "@material-ui/icons/GitHub";
-import { Link, ShoppingCart } from "phosphor-react";
+import { Link } from "phosphor-react";
 import "../styles/ProjectDisplay.css";
 
 function ProjectDisplay() {
@@ -11,8 +10,10 @@ function ProjectDisplay() {
   const refToFunc = (id) => {
     if (id == 0) {
       return "https://ecommerce-stores-umber.vercel.app/";
-    } else if (id == 1){
+    } else if (id == 1) {
       return "https://level-up-weld.vercel.app";
+    } else if (id == 2) {
+      return "https://artists-profile-builder-client.onrender.com/";
     }
   };
 
