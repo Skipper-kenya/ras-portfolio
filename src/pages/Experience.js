@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Projects.css";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -17,7 +18,7 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           // icon={<SchoolIcon />}
         >
-          <Book size={20} color="orangered"  />
+          <Book size={20} color="orangered" />
           <h3 className="vertical-timeline-element-title">
             Tambach High School, Iten-Kbt road.
           </h3>
@@ -29,7 +30,7 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           // icon={<SchoolIcon />}
         >
-          <Medal size={20} color="orangered"  />
+          <Medal size={20} color="orangered" />
           <h3 className="vertical-timeline-element-title">
             FreecodeCamp Courses
           </h3>
@@ -62,7 +63,7 @@ function Experience() {
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           // icon={<WorkIcon />}
         >
-          <GraduationCap size={20} color="orangered"  />
+          <GraduationCap size={20} color="orangered" />
           <h3 className="vertical-timeline-element-title">
             University of Eldoret, Eldoret.
           </h3>

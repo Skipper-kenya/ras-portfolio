@@ -61,16 +61,6 @@ function Navbar() {
       <div className="topIntro">
         <h3>RastaDevelopers</h3>
       </div>
-      {/* <div className="toggleButton">
-
-        <button
-          onClick={() => {
-            setExpandNavbar((prev) => !prev);
-          }}
-        >
-          {expandNavbar ? <X /> : <DotsNine />}
-        </button>
-      </div> */}
 
       <div className="links">
         <Link

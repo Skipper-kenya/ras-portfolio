@@ -9,6 +9,7 @@
   align-items: center;
   overflow: hidden;
   z-index: 4;
+  font-family: "Roboto Slab", serif;
 }
 .topIntro {
   color: rgb(194, 120, 23);
@@ -17,8 +18,8 @@
   justify-content: center;
   height: auto;
   letter-spacing: 1px;
-  font-family: arial;
   font-size: 20px;
+  font-family: "Nunito", sans-serif;
 }
 html {
   scroll-behavior: smooth;

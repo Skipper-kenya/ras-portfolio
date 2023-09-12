@@ -68,6 +68,10 @@ p {
   margin-right: auto;
   padding: 2px 0;
   border-bottom: 1px dotted slategray;
+  font-family: "Dosis", sans-serif;
+}
+.experience {
+  font-family: "Dosis", sans-serif;
 }
 
 /*RESPONSIVENESS*/

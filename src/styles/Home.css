@@ -1,7 +1,8 @@
 .home {
   width: 100%;
   align-items: center;
-  font-family: "Arial", sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   color: #3e497a;
   overflow: hidden;
 }
@@ -18,19 +19,21 @@
 }
 
 .about h2 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 25px;
   letter-spacing: 1px;
   height: 50px;
 }
 .typingAnimation h3 {
   margin-bottom: 1rem;
+  font-family: "Dosis", sans-serif;
   display: block;
 }
 .changeText {
   margin-left: 0.5px;
   position: relative;
   font-size: 22px;
+  font-family: "Dosis", sans-serif;
 }
 .changeText::before {
   content: "";
@@ -63,7 +66,9 @@
   border-bottom: 2px solid rgb(194, 120, 23);
 }
 .prompt h6 {
+  font-family: "Dosis", sans-serif;
   font-size: 22px;
+  letter-spacing: 1px;
 }
 .prompt svg:hover {
   color: rgb(194, 120, 23);
