@@ -1,15 +1,6 @@
 import React from "react";
-// import InstagramIcon from "@material-ui/icons/Instagram";
-// import TwitterIcon from "@material-ui/icons/Twitter";
-// import FacebookIcon from "@material-ui/icons/Facebook";
-// import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
-import {
-  TwitterLogo,
-  LinkedinLogo,
-  Envelope,
-  GithubLogo,
-} from "phosphor-react";
+import { TwitterLogo, LinkedinLogo, Envelope } from "phosphor-react";
 import "../styles/Footer.css";
 
 function Footer() {
@@ -38,7 +29,7 @@ function Footer() {
           <LinkedinLogo size={30} />
         </a>
       </div>
-      <p> &copy; 2023 RastaDevelopers</p>
+      <p> &copy; 2023 RastaDevelopers. All Rights Reserved</p>
     </div>
   );
 }

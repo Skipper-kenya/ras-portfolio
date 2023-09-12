@@ -1,89 +1,106 @@
 .projects {
-  width: 90%;
-  margin: 0 auto;
-  flex-wrap: wrap;
+  width: 100%;
   height: auto;
+  min-height: calc(50vh + 170px);
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
 }
-.projects .projectTitle {
-  text-align: center;
-  color: #3e497a;
-  font-size: 60px;
-  font-weight: bolder;
+.projects h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+  margin-bottom: 0.5rem;
 }
-
-.projectList {
-  width: 90%;
-  height: auto;
+/*Projects-card*/
+.projects-card {
+  width: 80%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  height: auto;
   justify-content: space-around;
 }
-
-/* MENU ITEM STYLING */
-
-.projectItem {
-  border-radius: 15px;
-  width: 30%;
+.project {
+  position: relative;
+  width: 48%;
+  box-shadow: 0 2px 7px;
+  border-radius: 5px;
   height: 300px;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  background: #21325e;
-  color: white;
+  border: 3px solid transparent;
   margin-bottom: 1rem;
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+  align-items: center;
 }
-.projectItem:hover {
-  opacity: 0.7;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-  transition: 0.3s ease-in;
+.view-btn {
+  position: absolute;
+  top: 175px;
+  font-size: 18px;
+  width: 50%;
+  padding: 5px 1rem;
   cursor: pointer;
+  border: none;
+  background-color: #3e497a;
+  border-bottom: 1px solid #3e497a;
+}
+.view-btn:hover {
+  background-color: #616da7;
+}
+.view-btn a {
+  text-decoration: none;
+  color: black;
 }
 
-.projectItem .bgImage {
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+.project img {
   width: 100%;
   height: 200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  object-fit: cover;
+  border-radius: inherit;
+  margin-bottom: 0.5rem;
 }
 
-.projectItem h1 {
-  font-size: 25px;
+.project h4,
+p {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px 0;
+  border-bottom: 1px dotted slategray;
 }
 
-@media only screen and (max-width: 1300px) {
-  .projectList {
-    grid-template-columns: 1fr 1fr;
+/*RESPONSIVENESS*/
+
+@media only screen and (max-width: 600px) {
+  .projects-card {
+    width: 90%;
   }
-}
-
-@media only screen and (max-width: 800px) {
-  .projectList {
-    grid-template-columns: 1fr;
+  .project {
+    width: 80%;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 800px) {
-  .projectList {
-    width: 99%;
+  .projects-card {
+    width: 90%;
   }
-
-  .projectItem {
-    width: 49%;
+  .project {
+    width: 80%;
   }
 }
-
-@media only screen and (max-width: 600px) {
-  .projectList {
-    width: 98%;
+@media only screen and (min-width: 800px) and (max-width: 1004px) {
+  .projects-card {
+    width: 100%;
   }
-
-  .projectItem {
+  .project {
+    width: 47%;
+  }
+}
+@media only screen and (min-width: 1004px) {
+  .projects-card {
     width: 80%;
+  }
+  .project {
+    width: 47%;
   }
 }

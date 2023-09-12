@@ -1,21 +1,11 @@
-import Proj2 from "../assets/proj2.jpg";
-import Proj4 from "../assets/proj4.webp";
 import proj1 from "../assets/artist.jpg";
 
 export const ProjectList = [
   {
-    name: "Ecommerce Website",
-    image: Proj2,
-    skills: "React,contextAPI",
-  },
-  {
-    name: "Social Media Blog Website",
-    image: Proj4,
-    skills: "React,contextAPI",
-  },
-  {
+    id: 0,
     name: "Artists Profile Builder App",
     image: proj1,
     skills: "React, NodeJs, Express,ContextApi,MongoDb,Mern-stack",
+    desc: "An application with authentication. Users can create profiles for their favorite artists and upload it online. Users can save their favorite profiles and view them in favorites tab.",
   },
 ];
