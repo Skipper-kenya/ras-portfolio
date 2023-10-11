@@ -26,7 +26,8 @@
   width: 48%;
   box-shadow: 0 2px 7px;
   border-radius: 5px;
-  height: 300px;
+  height: auto;
+  min-height: 350px;
   border: 3px solid transparent;
   margin-bottom: 1rem;
   display: flex;

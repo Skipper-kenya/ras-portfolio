@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 const Project = (props) => {
   const { name, skills, image, desc, id } = props.project;
 
-  console.log(id);
-
   const linkPath = (id) => {
     if (id == 0) {
       return "https://artists-profile-builder-client.onrender.com";

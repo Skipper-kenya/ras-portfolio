@@ -32,7 +32,7 @@ function Home() {
           changeText.innerHTML = "Redux Management";
         }, 12000);
         setTimeout(() => {
-          changeText.innerHTML = "Responsive web designs";
+          changeText.innerHTML = "Website development";
         }, 16000);
       };
 
