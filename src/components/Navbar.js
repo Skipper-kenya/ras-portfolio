@@ -100,7 +100,7 @@ function Navbar() {
             handleContacts();
           }}
         >
-          Contact
+          Contacts
         </Link>
       </div>
     </div>
