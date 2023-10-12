@@ -99,6 +99,7 @@ function Navbar() {
           onClick={() => {
             handleContacts();
           }}
+          //
         >
           Contacts
         </Link>
