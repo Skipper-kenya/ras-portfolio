@@ -1,4 +1,6 @@
 import proj1 from "../assets/artist.jpg";
+import proj2 from "../assets/weather.webp";
+
 
 export const ProjectList = [
   {
@@ -7,5 +9,12 @@ export const ProjectList = [
     image: proj1,
     skills: "React, NodeJs, Express,ContextApi,MongoDb,Mern-stack",
     desc: "An app with authentication. Allows user to build a profile for their favorite artists (name, image-Url ,genre, country and a description). Also users can save Artists-profile to the favorites and view them in favorites tab.",
+  },
+  {
+    id: 1,
+    name: "Weather Updates App",
+    image: proj2,
+    skills: "React,ContextApi",
+    desc: "A weather updates application. Takes in country, city, town name and returns the current weather conditions in that area i.e. temperature, humidity, is it raining? etc",
   },
 ];

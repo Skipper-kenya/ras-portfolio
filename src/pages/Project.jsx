@@ -7,6 +7,8 @@ const Project = (props) => {
   const linkPath = (id) => {
     if (id == 0) {
       return "https://artists-profile-builder-client.onrender.com";
+    } else if (id == 1) {
+      return "https://weather-app-836j.onrender.com/";
     }
   };
 
