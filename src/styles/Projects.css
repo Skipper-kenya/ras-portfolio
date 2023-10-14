@@ -61,7 +61,10 @@
   border-radius: inherit;
   margin-bottom: 0.5rem;
 }
-
+.project span{
+  color: #061d84;
+  font-weight: 900;
+}
 .project h4,
 p {
   width: 90%;
