@@ -9,6 +9,8 @@ const Project = (props) => {
       return "https://artists-profile-builder-client.onrender.com";
     } else if (id == 1) {
       return "https://weather-app-836j.onrender.com/";
+    } else if (id == 2) {
+      return "https://mern-ecommerce-stores.vercel.app/";
     }
   };
 

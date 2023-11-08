@@ -1,6 +1,6 @@
 import proj1 from "../assets/artist.jpg";
 import proj2 from "../assets/weather.webp";
-
+import proj3 from "../assets/ecommerce.avif";
 
 export const ProjectList = [
   {
@@ -16,5 +16,12 @@ export const ProjectList = [
     image: proj2,
     skills: "React,ContextApi",
     desc: "A weather updates application. Takes in country, city, town name and returns the current weather conditions in that area i.e. temperature, humidity, is it raining? etc",
+  },
+  {
+    id: 2,
+    name: "Ecommerce-stores",
+    image: proj3,
+    skills: "React,NodeJs,Express,ContextApi,MongoDb,mern-stack",
+    desc: "A full-stack MERN Ecommerce-stores with authentication and stripe payments integration",
   },
 ];
