@@ -9,6 +9,7 @@ import {
 } from "phosphor-react";
 
 function Home() {
+  //useEffect contribution
   useEffect(() => {
     let changeText = document.getElementById("changeText");
 
